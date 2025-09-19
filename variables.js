@@ -20,3 +20,12 @@ because of issue in block scope and functional scope
 
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+
+
+//LET
+// fixed. a=5 wrong but let a=5; correct 
+let cgpa=9;
+cgpa = cgpa+0.5;
+console.log(cgpa);
+//cgpa can be updtaed;
+//no need to dd let if you want to change  cgpa 
