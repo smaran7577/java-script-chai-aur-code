@@ -37,3 +37,6 @@ console.log(s.length);
 console.log(s[4]);
 let s2= "tony "+" stark";
 console.log(s2);
+
+//template literals
+
