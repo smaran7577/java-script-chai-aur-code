@@ -47,7 +47,7 @@ let greet = "hello";
             }
            console. log (greet);
       changeGreet ();
-      //function expressions
+                        //function expressions
       let hello = function (){
         console.log(hello);
       }
@@ -64,3 +64,31 @@ let greet = "hello";
     console.log("hello");
       }
     console.log(multiplegreet(greet1,2));
+
+
+    //types of functions 
+    console.log("-----------------");
+
+    console.log("type 1");
+    function sums(a,b) {
+        console.log(a+b);
+    }
+    console.log(sums(2,3));
+
+
+    console.log("type 2");
+
+    let sums1=function(a,b){
+      console.log(a+b);
+    }
+    console.log(sums(2,3));
+
+
+
+    console.log("type 3");
+
+    //arrow function
+    const sums2=(a,b) =>{
+      console.log(a+b);
+    }
+  console.log(sums(2,3));

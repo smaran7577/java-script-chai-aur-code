@@ -30,3 +30,8 @@ const sum =(a,b)=> {
    console.log(a+b);
 }
 console.log(sum(2,3));
+
+//function expressions
+      let hello = function (){
+        console.log(hello);
+      }
