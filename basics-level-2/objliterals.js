@@ -51,4 +51,4 @@ const stud =[
 
 
 ]
-console.log(stud[0].class);
+console.log(stud[0].class); 

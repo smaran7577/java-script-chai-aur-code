@@ -23,6 +23,7 @@ console.log(w.reverse());
 ///slice gets required part of the array 
  let r=[1,2,3,4,5];
  console.log(r.slice(2,4));
+ 
 
  //splice array modification 
  //splice returns deteleted elements 
