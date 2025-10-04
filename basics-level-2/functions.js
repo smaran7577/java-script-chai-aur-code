@@ -79,9 +79,10 @@ let greet = "hello";
     console.log("type 2");
 
     let sums1=function(a,b){
-      console.log(a+b);
+   return    console.log(a+b);
+        
     }
-    console.log(sums(2,3));
+    console.log(sums1);
 
 
 
