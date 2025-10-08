@@ -1,3 +1,44 @@
+//promises 
+function savetodb(data){
+ return new Promise((resolve, retract) => {
+          let no = Math.floor(Math.random()*10 )+1;
+   if(no>5){
+    resolve("resolved");
+   }
+   else {
+   retract("try next time");
+   }
+
+ });
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Async functions:
 // async functions are created using async keyword before the function declaration and they return a promise by default.
 async function greet() {
